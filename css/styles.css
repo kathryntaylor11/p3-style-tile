@@ -1,3 +1,20 @@
+.container {
+	background-color: #000;
+	color: #fff;
+	padding: 3px 20px;
+	margin: 50px;
+	border-radius: 20px 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Megrim', cursive;
+	color: #3388dd;
+}
+
+p {
+	font-family: 'Poiret One', cursive;
+}
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -8,18 +25,37 @@ section {
 	margin: 20px 0;
 }
 
+.color-1 {
+	background: none repeat scroll 0% 0% #000;
+}
+
+.color-2 {
+	background: none repeat scroll 0% 0% #fff;
+	border: 1px solid #000;
+}
+
+.color-3 {
+	background: none repeat scroll 0% 0% #3388dd;
+}
+
 .color-1,
 .color-2,
 .color-3,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
 }
+
+p, p em {
+	width: 500px;
+}
+
+
 
 
 /* Show Grid */
