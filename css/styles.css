@@ -1,5 +1,10 @@
+body {
+	background: url('../img/swirl_pattern.png') repeat scroll 0% 0% transparent;
+}
+
+
 .container {
-	background-color: #000;
+	background-color: rgba(0, 0, 0, .90);
 	color: #fff;
 	padding: 3px 20px;
 	margin: 50px;
@@ -9,6 +14,12 @@
 h1, h2, h3 {
 	font-family: 'Megrim', cursive;
 	color: #3388dd;
+}
+
+em { 
+	font-family: 'Poiret One', cursive;
+	letter-spacing: .15em;
+	margin-top: 20px;
 }
 
 p {
@@ -36,6 +47,18 @@ section {
 
 .color-3 {
 	background: none repeat scroll 0% 0% #3388dd;
+}
+
+.pattern-1 {
+	background: url('../img/stardust.png') repeat scroll 0% 0% transparent;
+}
+
+.pattern-2 {
+	background: url('../img/waves.gif') repeat scroll 0% 0% transparent;
+}
+
+.pattern-3 {
+	background: url('../img/swirl_pattern.png') repeat scroll 0% 0% transparent;
 }
 
 .color-1,
