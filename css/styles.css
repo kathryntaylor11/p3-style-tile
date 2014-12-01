@@ -83,3 +83,30 @@ p, p em {
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+
+/* Links */
+
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:link {
+	color: #fff;
+}
+
+
+a:hover {
+	color: #3388dd;
+}
+
+
+a:hover {
+	color: #3388dd;
+}
+
+a:active {
+	color: #3388dd;
+}
+
